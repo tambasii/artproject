@@ -8,3 +8,45 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
+
+body {
+  background-color: #ebeae9;
+  margin: 1rem;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Start */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 5rem;
+}
+
+nav ul {
+  margin-left: 5rem;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .burger {
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+nav .burger span {
+  height: 4px;
+  border: 2px solid black;
+  margin: 4px;
+  background: #000;
+}
