@@ -95,6 +95,7 @@ main {
 main .img {
   width: 40%;
   margin: 10px;
+  box-shadow: 3px 12px 18px rgba(0, 0, 0, 0.1);
 }
 
 /* Main end */
