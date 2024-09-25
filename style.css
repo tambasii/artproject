@@ -10,8 +10,12 @@
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
 
 body {
-  background-color: #ebeae9;
+  background: rgb(89, 88, 88);
   margin: 1rem;
+}
+
+.wrapper-container {
+  background-color: #ebeae9;
 }
 
 html {
@@ -125,3 +129,78 @@ main .img {
 }
 
 /* Section three end */
+
+/* Footer start */
+
+footer {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  color: #fff;
+  background: rgb(89, 88, 88);
+}
+
+footer .logo-container h1 {
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+footer .logo-container p {
+  max-width: 400px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .about-company .container {
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.about-company .container h1 {
+  margin-bottom: 50px;
+}
+
+.about-company .container p {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Project end  */
+
+/* Responsiveness */
+
+@media screen and (max-width: 740px) {
+  header .main-headings {
+    width: 100%;
+    border: 2px solid teal;
+  }
+
+  header .primary-headings {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .section-three .main-headings {
+    width: 100%;
+  }
+
+  .section-three .primary-headings {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .section-three img {
+    margin: 0;
+  }
+}
