@@ -78,3 +78,19 @@ header {
 }
 
 /* Header end */
+
+/* Main area */
+main {
+  margin: 0 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
+}
+
+main .img {
+  width: 40%;
+  margin: 10px;
+}
+
+/* Main end */
