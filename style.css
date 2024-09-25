@@ -94,3 +94,34 @@ main .img {
 }
 
 /* Main end */
+
+/* Section three */
+
+.section-three {
+  margin-left: 5rem;
+}
+
+.section-three .primary-headings {
+  margin-bottom: 10rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three .item h1 {
+  font-size: 2rem;
+  color: rgb(97, 97, 97);
+  margin-left: 4rem;
+}
+
+.section-three img {
+  width: 400px;
+  height: 500px;
+  margin: 50px;
+}
+
+/* Section three end */
